@@ -80,21 +80,25 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AI Workplace Productivity Assistant" },
+      { title: "Dashboard | AI Workplace Productivity Assistant" },
       {
         name: "description",
         content:
-          "Draft professional emails and analyse research in one AI workspace built for busy teams.",
+          "Track recent AI tasks and jump into the email generator or research assistant.",
       },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "Dashboard | AI Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:
-          "Draft professional emails and analyse research in one AI workspace built for busy teams.",
+          "Track recent AI tasks and jump into the email generator or research assistant.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Dashboard | AI Workplace Productivity Assistant" },
+      { name: "twitter:description", content: "Track recent AI tasks and jump into the email generator or research assistant." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/43067ee7-e74c-4107-86d9-f06b427b1443/id-preview-fb117d5a--bad78655-34be-4a45-b675-8c6b71b2cc72.lovable.app-1785485619679.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/43067ee7-e74c-4107-86d9-f06b427b1443/id-preview-fb117d5a--bad78655-34be-4a45-b675-8c6b71b2cc72.lovable.app-1785485619679.png" },
     ],
     links: [
       {
