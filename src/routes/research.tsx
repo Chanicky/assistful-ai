@@ -32,7 +32,7 @@ export const Route = createFileRoute("/research")({
       },
     ],
   }),
-  component: ResearchAssistant;
+  component: ResearchAssistant,
 });
 
 function formatAnalysis(a: Analysis) {
