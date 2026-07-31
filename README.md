@@ -1,60 +1,86 @@
-# Aura Assistant
+# AI Workplace Productivity Assistant
 
-AI Workplace Productivity Assistant
+A modern, responsive AI-powered web application that helps professionals automate everyday workplace tasks. Built using the **Lovable** platform, the application provides intelligent tools for generating professional emails, summarising content, and improving workplace productivity through an intuitive SaaS-inspired interface.
 
-Build a modern, responsive SaaS web application called AI Workplace Productivity Assistant with a clean UI inspired by Notion and Linear.
+---
 
-Features
+## 📖 Project Overview
 
-Dashboard with Recent AI Tasks.
+The **AI Workplace Productivity Assistant** is designed to streamline common workplace activities by leveraging Artificial Intelligence. It enables users to generate professional emails, summarise documents and web content, and manage AI-generated work within a clean, responsive dashboard.
 
-Smart Email Generator: Generate professional formal emails from user inputs (Recipient, Subject, Purpose, Key Points). Output must be editable with Copy, Save, Download and Regenerate actions.
+The application follows a modern SaaS design inspired by platforms like Notion and Linear, ensuring a professional user experience across desktop and mobile devices.
 
-AI Research Assistant: Accept pasted text, uploaded documents (PDF, DOCX, TXT), or webpage/article URLs. Generate an Executive Summary, Key Insights, Recommendations and Action Items. Output must be editable.
+---
 
-Layout
+## ✨ Features Implemented
 
-Responsive desktop and mobile design.
+- Responsive Dashboard
+- Modern SaaS User Interface
+- Sidebar Navigation
+- Smart Email Generator
+  - Professional formal email generation
+  - Editable AI responses
+  - Copy, Save, Download and Regenerate actions
+- AI Research Assistant
+  - Summarise pasted text
+  - Upload and analyse documents
+  - Analyse webpages using URLs
+  - Generate:
+    - Executive Summary
+    - Key Insights
+    - Recommendations
+    - Action Items
+- Recent AI Tasks
+- Saved Work section
+- Templates section
+- Settings page
+- Responsive Desktop and Mobile Design
+- Responsible AI Disclaimer
 
-Sidebar: Dashboard, Email Generator, Research Assistant, Saved Work, Templates, Settings.
+---
 
-Separate Input and Output panels.
+## 🛠 Technologies and Tools Used
 
-Modern cards, clean typography and professional UX.
+### Platform
+- Lovable
 
-UI Labels
+### Artificial Intelligence
+- AI-powered text generation
+- Structured AI prompts
 
-Dashboard, Recent AI Tasks, Recipient, Subject, Purpose, Paste Text, Upload Document, Enter URL, Generate, Copy, Save, Download, Regenerate, Summary, Key Insights, Recommendations, Action Items.
+### Frontend
+- Responsive Web Design
+- Modern SaaS UI/UX
 
-Messages
+### Design Inspiration
+- Notion
+- Linear
 
-Loading: "Generating..." "Analysing..."
-Success: "Completed successfully."
-Error: "Please provide valid input."
+### Version Control
+- Git
+- GitHub
 
-Disclaimer
+---
 
-"AI-generated content should be reviewed for accuracy before professional use."
+## 🚀 Setup Instructions
 
-Create a polished, production-ready interface focused on usability, accessibility and workplace productivity.
+1. Sign in to the Lovable platform.
+2. Create a new project.
+3. Paste the application prompt into Lovable AI.
+4. Generate the application.
+5. Review and customise the generated interface if needed.
+6. Test the application on desktop and mobile layouts.
+7. Publish or export the project.
+8. Push the project files to a GitHub repository.
 
-This project was built with [Lovable](https://lovable.dev).
+---
 
-## Build with Lovable
+## 📌 Responsible AI
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/bad78655-34be-4a45-b675-8c6b71b2cc72).
+AI-generated content is intended to assist users and should always be reviewed for accuracy before being used for professional, business, or legal purposes.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+---
 
-## Development
+## 📄 License
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+This project is created for educational and demonstration purposes.
